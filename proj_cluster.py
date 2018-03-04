@@ -62,7 +62,7 @@ for i in [i for i in df.columns if df[i].dtype == 'M8[ns]']:
 
 #-----------------------------------------------------------------------------------------------------
 
-#Cheching for 3 business logics:
+#Checking for 3 business logics:
 # 1. Booking date < check in date
 # 2. Check in date < Check out date
 # 3. Adults = 0 and child > 0   
